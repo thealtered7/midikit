@@ -6,6 +6,8 @@ authors = ["Jeffrey Keene <thealtered7@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+rtmidi = "^2.3.4"
+mido = "^1.2.10"
 
 [tool.poetry.dev-dependencies]
 
