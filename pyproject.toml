@@ -8,6 +8,7 @@ authors = ["Jeffrey Keene <thealtered7@gmail.com>"]
 python = "^3.9"
 rtmidi = "^2.3.4"
 mido = "^1.2.10"
+pytest = "^6.2.5"
 
 [tool.poetry.dev-dependencies]
 

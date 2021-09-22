@@ -8,5 +8,8 @@ environment:
 	python -m venv env
 	. env/bin/activate
 	pip install poetry
+	pip install mido
+	pip install rtmidi
+	pip install pytest
 	poetry install
 
