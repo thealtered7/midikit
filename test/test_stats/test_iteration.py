@@ -2,7 +2,7 @@ import unittest
 from mido import MidiTrack, MidiFile
 from midikit.stats.iteration import create_track_generator
 
-TEST_FILE_PATH = "/home/jkeene/Downloads/01_Premonition.mid"
+TEST_FILE_PATH = "/home/jkeene/Music/midi/bach/johan_sebastion/keyboard/suite/english/bwv807/bwv807a.mid"
 
 
 class MyTestCase(unittest.TestCase):

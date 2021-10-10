@@ -1,11 +1,11 @@
-from typing import Generator, List
+from typing import Iterable, List
 from mido import (
     MidiFile,
     MidiTrack
 )
 
 
-def create_track_generator(midi_file: MidiFile, track_list: List[int] = []) -> Generator[MidiTrack, None, None]:
+def create_track_generator(midi_file: MidiFile, track_list: List[int] = []) -> Iterable:
     if not track_list:
         track_list = range(0, len(midi_file.tracks))
 

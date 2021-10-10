@@ -9,6 +9,7 @@ python = "^3.9"
 rtmidi = "^2.3.4"
 mido = "^1.2.10"
 pytest = "^6.2.5"
+pydantic = "^1.8.2"
 
 [tool.poetry.dev-dependencies]
 
