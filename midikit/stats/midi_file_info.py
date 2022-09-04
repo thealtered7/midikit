@@ -1,5 +1,6 @@
 import mido
 
+
 def output_tracks(midi_file: mido.MidiFile):
     tracks = midi_file.tracks
     print("number of tracks: {}".format(len(tracks)))

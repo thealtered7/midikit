@@ -14,6 +14,5 @@ def test_pitch_class(pitch: int, expect: int):
     assert pitch_class(pitch) == expect
 
 
-
 if __name__ == '__main__':
     unittest.main()

@@ -1,5 +1,4 @@
 
-
 environment:
 	pwd
 	ls
@@ -13,3 +12,5 @@ environment:
 	pip install pytest
 	poetry install
 
+test:
+	pytest
